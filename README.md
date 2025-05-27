@@ -1,1 +1,8 @@
-# EfficientNetB0-hastalik-teshisi
+# EfficientNetB0 Modeli ile Kolonoskopi Görüntülerinde Bağırsak Hastalıkları Teşhisi
+  Bağırsak hastalıkları, dünya genelinde milyonlarca insanı etkileyen, yaşam kalitesini ciddi şekilde düşüren sağlık sorunlarıdır. Bu hastalıklar, uzun vadede komplikasyonlara yol açabilir ve tedavi edilmediğinde ölümcül sonuçlar doğurabilir. Bu hastalıklar arasında polipler, kanser, Crohn hastalığı ve ülseratif kolit (UC) gibi inflamatuar bağırsak hastalıkları öne çıkmaktadır. 
+
+  Bu hastalıkların erken teşhisi ve doğru tedavi, hastaların yaşam sürelerini uzatabilir ve tedavi maliyetlerini azaltabilir. Kolonoskopi gibi tarama yöntemleri, bu hastalıkların erken evrelerde tespit edilmesini sağlasa da, hızlı ve doğru analiz için yapay zeka tabanlı çözümler büyük bir potansiyel taşımaktadır. Derin öğrenme tabanlı modeller, bu süreçte otomatik ve yüksek doğrulukta analiz yaparak erken teşhis ve tedavi sürecine büyük katkı sağlayabilir. Bu çalışma, dengesiz bir veri seti üzerinde eğitim almış bir derin öğrenme modeli kullanarak kolonoskopi görüntülerinden Normal, Polyp, Cancer, Crohn’s disease ve Ulcerative Colitis (UC) gibi hastalıkların teşhisini hedeflemektedir. 
+
+  Veri setindeki görüntüler, farklı hastalıkların teşhisini gerçekleştirmek amacıyla, Normal (sağlıklı bağırsağa ait görüntüler), Polyp (bağırsakta poliplerin bulunduğu görüntüler), Cancer (kolorektal kanserli görüntüler), Crohns (Crohn hastalığına ait görüntüler) ve UC (ülseratif kolitli görüntüler) olmak üzere beş sınıfa ayrılmaktadır. Veri seti, her bir hastalık türünün farklı aşamalarını ve özelliklerini içeren görüntüler sunar, bu da modelin her hastalık türünü doğru bir şekilde öğrenebilmesi için önemlidir. Toplamda 3570 görüntü bulunan veri seti, her bir sınıfın farklı sayılarda örnekler içerdiği dengesiz bir yapıya sahiptir. UC sınıfı en fazla örneğe sahipken, diğer sınıflar daha az örnek içermektedir.
+
+  
